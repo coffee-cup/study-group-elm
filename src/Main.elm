@@ -24,6 +24,6 @@ main =
 
 init : String -> ( Model, Cmd Msg )
 init topic =
-    ( Model topic "waiting.gif"
+    ( Model topic ""
     , getRandomGif topic
     )

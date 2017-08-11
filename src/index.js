@@ -1,5 +1,3 @@
-// import './scss/main.scss';
-
 // Load Elm
 import Elm from './Main.elm';
 const mountNode = document.getElementById('main');
