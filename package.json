@@ -1,0 +1,20 @@
+{
+  "name": "study-group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-webpack-loader": "^4.3.1",
+    "eslint": "^4.4.1",
+    "eslint-plugin-es6-recommended": "^0.1.2",
+    "prettier": "^1.5.3",
+    "webpack": "^3.5.2",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
